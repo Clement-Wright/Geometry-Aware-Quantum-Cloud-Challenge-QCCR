@@ -1,0 +1,21 @@
+[project]
+name = "geometry-aware-quantum-cloud-challenge"
+version = "0.1.0"
+description = "Qiskit Fall Fest 2026 Purdue: Geometry-Aware Quantum Cloud Challenge"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    # Qiskit and Aer are pinned as a tested pair; don't upgrade one without the other.
+    "qiskit==2.4.1",
+    "qiskit-aer==0.17.2",
+    "numpy>=1.26",
+    "pandas>=2.0",
+    "matplotlib>=3.8",
+    "pylatexenc>=2.10",
+    "networkx>=3.2",
+    "jupyterlab>=4.0",
+    "qiskit-ibm-runtime==0.51.0",
+]
+
+[tool.uv]
+package = false
