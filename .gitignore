@@ -1,6 +1,9 @@
 # Environment
 .venv/
 .env
+.serena
+/tests
+/docs
 
 # Python / Jupyter
 __pycache__/
